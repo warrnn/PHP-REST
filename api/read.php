@@ -5,7 +5,7 @@ header('Access-Control-Allow-Origin: *');
 header('content-type: application/json');
 
 // initializing api
-include_once('../core/initialze.php');
+include_once('../core/initialize.php');
 
 // instantiate post
 $post = new Post($db);
